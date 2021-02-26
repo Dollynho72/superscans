@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+  
+input[type=text] {
+    position: relative;
+    top: 150px;
+    left: -270px;
+    color: #797979;
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px;
+    outline:none;
+    background-color: #2b2b2b;
+    display: inline-block;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+  
+input[type=file] {
+    position: relative;
+    top: 85px;
+    left: 250px;
+    color: #797979;
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px;
+    outline:none;
+    background-color: #2b2b2b;
+    display: inline-block;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+  
+.button {
+    position: relative;
+    top: 250px;
+    left: 550px;
+    width: auto;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    color: #fff;
+    outline: none;
+    background: #292929;
+    border: 1px solid #333;
+    border-bottom: 1px solid #009688;
+    cursor: pointer;
+}

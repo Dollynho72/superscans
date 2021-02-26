@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+  
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 300px;
+}
+  
+h2 {
+    postion: relative;
+    top: 100px;
+    text-align: center;
+    color: #fff;
+}

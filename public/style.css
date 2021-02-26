@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+  
+#all {
+    position: relative;
+    left: 450px;
+}
+  
+#login-header {
+    width: 100%;
+    color: #999;
+    padding: 12px 75px;
+    display: inline-block;
+}
+  
+#login-box .icon-login {
+    position: relative;
+    top: 8px;
+    left: 8px;
+    width: 38px;
+    height: 39px;
+    float: left;
+    background: #454545 url("https://www.supermangas.site/img/user-white.png") no-repeat center;
+    background-size: 24px;
+}
+  
+#login-box .icon-password {
+    position: relative;
+    top: 8px;
+    left: 8px;
+    width: 38px;
+    height: 39px;
+    float: left;
+    background: #454545 url("https://www.supermangas.site/img/login-white.png") no-repeat center;
+    background-size: 24px;
+}
+  
+input[type=text], input[type=password] {
+    color: #999;
+    width: 263px;
+    padding: 12px 20px;
+    margin: 8px;
+    outline:none;
+    background-color: #424242;
+    display: inline-block;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+}
+  
+input[type=button] {
+    color: #fff;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px;
+    outline: none;
+    background: #454545 url("https://www.supermangas.site/img/lock-white.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 10px;
+    background-size: 16px;
+    display: inline-block;
+    border: 1px solid #424242;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+  
+input[type=button]:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
